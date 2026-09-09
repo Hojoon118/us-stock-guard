@@ -1,0 +1,42 @@
+{
+  "initial_cash": 20000,
+  "transaction_cost_rate": 0.001,
+  "risk_per_trade": 0.005,
+  "max_drawdown_reduce": 0.08,
+  "max_drawdown_halt": 0.12,
+  "market_ticker": "^GSPC",
+  "portfolio": {},
+  "symbols": {
+    "META": {"name": "Meta Platforms", "cik": "0001326801", "sector": "AI platforms", "tier": "CORE", "max_weight": 0.20},
+    "AAPL": {"name": "Apple", "cik": "0000320193", "sector": "Consumer AI and devices", "tier": "CORE", "max_weight": 0.15},
+    "HOOD": {"name": "Robinhood", "cik": "0001783879", "sector": "Fintech", "tier": "GROWTH", "max_weight": 0.08},
+    "NFLX": {"name": "Netflix", "cik": "0001065280", "sector": "Media", "tier": "HOLDING", "max_weight": 0.15},
+    "PLTR": {"name": "Palantir", "cik": "0001321655", "sector": "AI software", "tier": "GROWTH", "max_weight": 0.12},
+    "TSLA": {"name": "Tesla", "cik": "0001318605", "sector": "Robotics", "tier": "GROWTH", "max_weight": 0.12},
+    "GOOGL": {"name": "Alphabet", "cik": "0001652044", "sector": "AI platforms", "tier": "CORE", "max_weight": 0.20},
+    "NVDA": {"name": "NVIDIA", "cik": "0001045810", "sector": "AI semiconductors", "tier": "CORE", "max_weight": 0.15},
+    "AMD": {"name": "AMD", "cik": "0000002488", "sector": "AI semiconductors", "tier": "GROWTH", "max_weight": 0.10},
+    "RKLB": {"name": "Rocket Lab", "cik": "0001819994", "sector": "Space", "tier": "CHALLENGER", "max_weight": 0.06},
+    "ASTS": {"name": "AST SpaceMobile", "cik": "0001780312", "sector": "Space communications", "tier": "MOONSHOT", "max_weight": 0.03},
+    "ISRG": {"name": "Intuitive Surgical", "cik": "0001035267", "sector": "Medical robotics", "tier": "CORE", "max_weight": 0.10},
+    "SYM": {"name": "Symbotic", "cik": "0001837240", "sector": "Logistics robotics", "tier": "CHALLENGER", "max_weight": 0.05},
+    "TER": {"name": "Teradyne", "cik": "0000097210", "sector": "Industrial robotics", "tier": "GROWTH", "max_weight": 0.07}
+    ,"ALAB": {"name": "Astera Labs", "sector": "AI connectivity semiconductors", "tier": "CHALLENGER", "max_weight": 0.05}
+    ,"CRDO": {"name": "Credo Technology", "sector": "AI high-speed connectivity", "tier": "CHALLENGER", "max_weight": 0.05}
+    ,"TEM": {"name": "Tempus AI", "sector": "Healthcare AI", "tier": "CHALLENGER", "max_weight": 0.04}
+    ,"NBIS": {"name": "Nebius", "sector": "AI cloud", "tier": "CHALLENGER", "max_weight": 0.04}
+    ,"CRWV": {"name": "CoreWeave", "sector": "AI cloud", "tier": "MOONSHOT", "max_weight": 0.03}
+    ,"APLD": {"name": "Applied Digital", "sector": "AI data centers", "tier": "MOONSHOT", "max_weight": 0.02}
+    ,"SOUN": {"name": "SoundHound AI", "sector": "Voice and agentic AI", "tier": "MOONSHOT", "max_weight": 0.02}
+    ,"0183J0.KS": {"name": "TIGER US Space Tech", "sector": "Space ETF", "tier": "TRACK_ONLY", "max_weight": 0.00}
+  },
+  "strategy": {
+    "hard_stop_pct": 0.10,
+    "trailing_stop_pct": 0.15,
+    "take_profit_1_pct": 0.20,
+    "take_profit_2_pct": 0.40,
+    "pullback_min_pct": 0.03,
+    "pullback_max_pct": 0.10,
+    "cooldown_days": 3
+  }
+}
